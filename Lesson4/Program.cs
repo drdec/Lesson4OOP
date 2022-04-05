@@ -1,18 +1,13 @@
-﻿using System;
-
-namespace Lesson4
+﻿namespace Lesson4
 {
     public class Program
     {
         public static void Main()
         {
-            var building = new Building();
-            var buildingTwo = new Building();
-
-            building.ShowInfo();
-            Console.WriteLine();
-            buildingTwo.ShowInfo();
-
+            var temp = Creator.CreateBuilding();
+            temp.ShowInfo();
+            ListBuilding.ShowAllBuilding();
+            ListBuilding.DeleteBuilding(temp);
         }
     }
     

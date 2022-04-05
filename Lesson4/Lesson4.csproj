@@ -44,7 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Building.cs" />
+    <Compile Include="Creator.cs" />
     <Compile Include="GeneratorId.cs" />
+    <Compile Include="IBuilding.cs" />
+    <Compile Include="ListBuilding.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
