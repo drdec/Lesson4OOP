@@ -1,6 +1,6 @@
 ﻿namespace Lesson4
 {
-    public static class GeneratorId
+    internal static class GeneratorId
     {
         private static int _id;
 

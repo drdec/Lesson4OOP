@@ -2,7 +2,7 @@
 
 namespace Lesson4
 {
-    public class Building : IBuilding
+    internal class Building : IBuilding
     {
         private readonly int _id;
         private int _height;
